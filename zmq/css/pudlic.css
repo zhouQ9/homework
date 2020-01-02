@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+/* 20191260521王伟博 */
+
+ul,p,h1,h2,h3,h4,h5,h6,body,form,dl,dd,dt{
+	padding:0;margin:0;
+	font-family: 'microsoft yahei';
+	}
+ul{list-style:none;}	
+a{ text-decoration:none;color:#000;}
+a:visited{ color:#000;}
+a:hover{ color:red;}
+img{ border:none;}
+html{ font-size:14px; color:#333;}
+#nav{ background-color:#93F;background:linear-gradient(#963,#000);height:30px;}
+#nav a { float:left;
+          width:20%;
+		  color:#fff; 
+		  height:30px;
+		  text-align:center;
+		  line-height:30px;
+		  font-size:1rem;
+		  font-weight:bold;
+		  letter-spacing:2px;
+		  }
+#nav a:hover{background:linear-gradient(#963,#333);border-radius:8px;color: red;}
+h1{
+	font-size:16px;
+	line-height:30px;
+	margin:5px 30px;
+	}
+h1:hover{color:#963;border-color:#333;}
